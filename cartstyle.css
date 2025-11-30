@@ -53,8 +53,9 @@ body {
     opacity: 1;
 }
 
-/* NOTE text styling */
+
 .order-summary .bg-white strong:first-child {
     color: #dc3545;
 
 }
+
