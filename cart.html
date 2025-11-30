@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - The Yarn CO</title>
+
+    <!-- including as mam required me to BOOTSTRAP to make usge easier  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- linking tha cssss Custom CSS -->
+    <link rel="stylesheet" href="cartstyle.css">
+</head>
+
+<body 
+class="bg-dark d-flex justify-content-center p-4">
+
+    <div class="container bg-peach p-4 rounded-3" style="max-width:1200px;">
+        
+        <h1 class="text-center fw-bold mb-4">Shopping Cart</h1>
+
+        <div class="row d-flex">
+
+            <!--using boostrap e3asiness hereee LEFT COLUMN -->
+            <div class="col-lg-8 d-flex flex-column">
+
+                <div class="p-3 rounded-3 bg-light-yellow">
+
+                 <!--time to add items of cart CART ITEM 1 -->
+                    <div class="cart-item d-flex justify-content-between align-items-center p-3 mb-3 rounded-4 shadow-sm bg-white">
+                        <div class="d-flex align-items-center gap-3">
+                          <img src="crochet_axolotl_pink.webp" class="item-image">
+                            <div>
+                                <h5 class="m-0">Pink Plushie</h5>
+                            <div class="quantity-control d-flex align-items-center gap-2 mt-2">
+                                <button class="qty-btn minus btn-sm btn btn-outline-dark">-</button>
+                            <span class="quantity fw-bold">1</span>
+                                    <button class="qty-btn plus btn-sm btn btn-outline-dark">+</button>
+                                </div>
+                           </div>
+                        </div>
+                     <div class="text-end">
+                            <button class="remove-btn btn btn-link text-danger fs-4 p-0">×</button>
+                            <p class="m-0 small">Discount 0%</p>
+                            <p class="m-0 fw-bold price">RS.3808</p>
+                        </div>
+                    </div>
+
+                    <!-- now cart two item CART ITEM 2 -->
+                    <div class="cart-item d-flex justify-content-between align-items-center p-3 mb-3 rounded-4 shadow-sm bg-white">
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="images (3).jfif" class="item-image">
+                            <div>
+                                <h5 class="m-0">Beige sweater baggy</h5>
+                                <div class="quantity-control d-flex align-items-center gap-2 mt-2">
+                                    <button class="qty-btn minus btn-sm btn btn-outline-dark">-</button>
+                                    <span class="quantity fw-bold">1</span>
+                                    <button class="qty-btn plus btn-sm btn btn-outline-dark">+</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-end">
+                            <button class="remove-btn btn btn-link text-danger fs-4 p-0">×</button>
+                            <p class="m-0 small">Discount 0%</p>
+                            <p class="m-0 fw-bold price">RS.5808</p>
+                        </div>
+                    </div>
+
+                    <!-- CART ITEM 3 -->
+                    <div class="cart-item d-flex justify-content-between align-items-center p-3 mb-3 rounded-4 shadow-sm bg-white">
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="images (2).jfif" class="item-image">
+                            <div>
+                                <h5 class="m-0">Yellow flower bouquet</h5>
+                                <div class="quantity-control d-flex align-items-center gap-2 mt-2">
+                                    <button class="qty-btn minus btn-sm btn btn-outline-dark">-</button>
+                                    <span class="quantity fw-bold">1</span>
+                                    <button class="qty-btn plus btn-sm btn btn-outline-dark">+</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-end">
+                            <button class="remove-btn btn btn-link text-danger fs-4 p-0">×</button>
+                            <p class="m-0 small">Discount 0%</p>
+                            <p class="m-0 fw-bold price">RS.4878</p>
+                        </div>
+                    </div>
+
+                    <!-- Add More Items -->
+                    <div class="d-flex align-items-center gap-3 mt-3">
+                        <button class="add-more-btn btn btn-outline-dark rounded-3 fs-3">+</button>
+                        <span class="fw-bold">Forgot to add something?</span>
+                    </div>
+
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="mt-4 d-flex gap-3">
+                    
+<a href="homepg.html" class="btn btn-warning px-4">Return to Home page</a>
+                    <button class="btn btn-success px-4">PROCEED TO CHECKOUT</button>
+                </div>
+            </div>
+
+            <!-- RIGHT COLUMN → Summary ALWAYS at Bottom -->
+            <div class="col-lg-4 d-flex flex-column">
+                <div class="order-summary bg-pink p-4 rounded-4 mt-auto shadow-sm">
+                    <h3>Order Summary</h3>
+                    <div class="d-flex justify-content-between mt-3">
+                        <span>Subtotal:</span> <span class="subtotal">RS.16078</span>
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                        <span>Shipping:</span> <span>RS.200</span>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between fw-bold fs-5">
+                        <span>Total:</span> <span class="total-amount">RS.16278</span>
+                    </div>
+                    <div class="bg-white p-3 rounded-3 mt-3 small">
+                        <strong>NOTE:</strong><br>
+                        The Yarn CO does NOT offer any DISCOUNT or promo codes.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<script src="cart.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - The Yarn CO</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="paymninfo.css">
+</head>
+
+<body>
+    <div class="checkout-container">
+        <h1 class="checkout-title">CHECKOUT</h1>
+
+        <!-- Contact Informati-->
+        <div class="form-section">
+            <div class="section-title">
+                <span class="section-icon">📧</span>Contact Information
+            </div>
+            <input type="email" class="form-control" placeholder="email address">
+            <input type="tel" class="form-control" placeholder="phone number">
+        </div>
+
+        <!-- Shipping Address -->
+        <div class="form-section">
+            <div class="section-title">
+                <span class="section-icon">📍</span>Shipping Address
+            </div>
+            <input type="text" class="form-control" placeholder="Full name">
+            <input type="text" class="form-control" placeholder="Address">
+            <div class="two-col">
+                <input type="text" class="form-control" placeholder="city name">
+                <input type="text" class="form-control" placeholder="Postal Code">
+            </div>
+        </div>
+
+        <!-- Payment Method -->
+        <div class="form-section">
+            <div class="section-title">
+                <span class="section-icon">💳</span>PAYMENT METHOD
+            </div>
+            
+            <div class="payment-methods">
+                <button class="payment-btn active">
+                    <span class="card-icon">💳</span>Card
+                </button>
+                <button class="payment-btn">
+                    <span class="card-icon">💰</span>COD
+                </button>
+                <button class="payment-btn">
+                    <span class="card-icon">📱</span>wallet
+                </button>
+            </div>
+
+            <div id="cardFields">
+                <input type="text" class="form-control" placeholder="card Number(1234 5678 0098)">
+                <input type="text" class="form-control" placeholder="cardholder Number">
+                <div class="two-col">
+                    <input type="text" class="form-control" placeholder="mm/yy">
+                    <input type="text" class="form-control" placeholder="CVV1">
+                </div>
+                <div class="security-note">your data is encrypted and safe</div>
+                
+                <button class="payment-done-btn" id="paymentDoneBtn">PAYMENT DONE ✓</button>
+            </div>
+        </div>
+
+        <!-- Order Summary -->
+        <div class="order-summary">
+            <div class="summary-title">Order summary</div>
+
+            <div class="order-item">
+                <img src="crochet_axolotl_pink.webp" class="item-img" alt="pink plushier">
+                <div class="item-details">
+                    <div class="item-name">pink plushier</div>
+                    <div class="item-qty">QTY:1</div>
+                </div>
+                <div class="item-price">RS.3808</div>
+            </div>
+
+            <div class="order-item">
+                <img src="images (3).jfif" class="item-img" alt="Beige sweater">
+                <div class="item-details">
+                    <div class="item-name">Beige sweater</div>
+                    <div class="item-qty">QTY:1</div>
+                </div>
+                <div class="item-price">RS.5808</div>
+            </div>
+
+            <div class="order-item">
+                <img src="images (2).jfif" class="item-img" alt="yellow flowers">
+                <div class="item-details">
+                    <div class="item-name">yellow flowers</div>
+                    <div class="item-qty">QTY:1</div>
+                </div>
+                <div class="item-price">RS.4678</div>
+            </div>
+
+            <div class="summary-row">
+                <span>Subtotal:</span>
+                <span>RS.14,294</span>
+            </div>
+            <div class="summary-row">
+                <span>Shipping:</span>
+                <span>RS.200</span>
+            </div>
+            <div class="summary-row">
+                <span>Tax:</span>
+                <span>RS.0</span>
+            </div>
+
+            <div class="summary-total">
+                <span>TOTAL:</span>
+                <span>RS.14,494</span>
+            </div>
+        </div>
+
+        <!-- Place Order Button -->
+        <button class="place-order-btn" id="placeOrderBtn">ORDER PLACED!🎉</button>
+    </div>
+
+    <!-- Confirmation Message -->
+    <div class="confirmation-modal" id="confirmationMsg">
+        Order Confirmed!🎉
+    </div>
+
+    <script src="paymntinfo.js"></script>
+</body>
+</html>
