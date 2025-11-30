@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Categories - The Yarn Co.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logo">the yarn co.</div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="categories.html" class="active">Categories</a>
+                <a href="topsellers.html">Top Sellers</a>
+                <a href="#" onclick="checkCart()">Cart</a>
+            </nav>
+        </header>
+
+        <div class="product-grid">
+            
+            <div class="card" onclick="openCategory('Yarn')">
+                <img src="yarn.png" alt="Yarn">
+                <div class="card-details">
+                    <h3>Yarn</h3>
+                    <p>Shop all yarns</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="openCategory('Flowers')">
+                <img src="flowers.png" alt="Flowers">
+                <div class="card-details">
+                    <h3>Flowers</h3>
+                    <p>Shop flowers</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="openCategory('Plushy')">
+                <img src="plushy.png" alt="Plushy">
+                <div class="card-details">
+                    <h3>Plushy</h3>
+                    <p>Handmade toys</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="openCategory('Clothing')">
+                <img src="clothing.png" alt="Clothing">
+                <div class="card-details">
+                    <h3>Clothing</h3>
+                    <p>Shop clothes</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="openCategory('Bags')">
+                <img src="bags.png" alt="Bags">
+                <div class="card-details">
+                    <h3>Bags</h3>
+                    <p>Shop bags</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="openCategory('Home Decor')">
+                <img src="decor.png" alt="Decor">
+                <div class="card-details">
+                    <h3>Home Decor</h3>
+                    <p>Shop home items</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
