@@ -3,7 +3,26 @@ body {
     min-height: 100vh;
     font-family: Arial, sans-serif;
 }
+.headermenu ul {
+    display: flex;
+    list-style: none;
+    gap: 240px;
+    
+}
 
+
+.headermenu ul li a {
+    text-decoration: none;
+    color: #484242;
+    font-size: 18px;
+    font-weight: 500;
+  
+    display: inline-block;  
+}
+
+.headermenu ul li a:hover {
+    color: #752d71;
+}
 .checkout-container {
     max-width: 700px;
     margin: 30px auto;
