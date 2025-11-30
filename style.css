@@ -12,14 +12,18 @@ body {
     background-color: #fffce8;
     padding: 20px;  
 }
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    margin-bottom: 40px;
-    background-color: transparent;
+    margin-bottom: 0;
+    background-color: white;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -32,23 +36,17 @@ nav a {
     text-decoration: none;
     color: #333;
     font-size: 16px;
-    background-color: #d4b2d8;
-    padding: 10px 40px;
-    border-radius: 50px;
-    margin-left: 50px;
+   margin-left: 250px;
+    
     transition: 0.3s;
 }
 
 nav a:hover {
-    background-color: #c59bc9;
-    text-decoration: none;
+    color: #8e4f8b;
+
 }
 
-.active {
-    font-weight: bold;
-    background-color: #b38cb7;
-    color: white;
-}
+
 
 .product-grid {
     display: grid;
