@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Sign up</title>
+    <link rel="stylesheet" href="stylesign.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="blockk">
+        <form id="loginForm" action="homepg.html">
+
+            <h1>the yarn co.</h1>
+            <p>Hand stitched warmth in every loop</p>
+
+            <p>E-mail</p>
+            <div class="input-box">
+                <input type="email" id="mail" placeholder="E-mail" required>
+            </div>
+
+            <p>Password</p>
+            <div class="input-box">
+                <input type="password" id="pass" placeholder="Password" required>
+            </div>
+            <p> </p>
+            <p> </p>
+            <button id="bu" type="submit" class="btn" onclick="custom()">Login</button>
+
+            <div class="register-link">
+                <p>Don't have an account? 
+                    <a href="#" onclick="signup()">Sign Up</a>
+                </p>
+            </div>
+        </form>
+       <form id="signupForm" action="homepg.html" style="display:none;">
+
+    <h1>the yarn co.</h1>
+    <p>Hand stitched warmth in every loop</p>
+
+    <p>Full Name</p>
+    <div class="input-box"> <input type="text" id="name" placeholder="Full Name" required>
+    </div>
+
+     <p>Phone Number</p>
+    <div class="input-box"> <input type="tel" id="phone" placeholder="+92 300 xxxxxxx" required>
+    </div>
+
+    <p>E-mail</p>
+    <div class="input-box"> <input type="email" id="mail" placeholder="E-mail" required>
+    </div>
+
+    <p>Password</p>
+    <div class="input-box"><input type="password" id="pass" placeholder="Password" required>
+    </div>
+
+    <p> </p>
+    <p> </p>
+
+    <button id="bu" type="submit" class="btn" onclick="custom2()">Sign Up</button>
+
+    <div class="register-link">
+        <p>Already have an account?
+            <a href="#" onclick="login()">Login</a>
+        </p>
+    </div>
+  
+
+</form>
+ <script src="script.js"></script>
+
+    </div>
+     
+
+</body>
+</html>
