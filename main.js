@@ -10,7 +10,5 @@ function openCategory(categoryName) {
     console.log("User clicked on category: " + categoryName);
 }
 
-function checkCart() {
-    alert("Your cart is currently empty. Start shopping!");
-    console.log("User checked the cart.");
-}
+
+
