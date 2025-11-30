@@ -167,10 +167,7 @@ footer {
 .subscribe-btn:hover {
     background-color: #C8A2C8;
 }
-.active {
-    font-weight: bold;
-    background-color: #b38cb7; /* Darker Purple */
-    color: white;
-}
+
+
 
 
