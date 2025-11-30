@@ -110,3 +110,61 @@ nav a:hover {
     padding: 0;
     text-decoration: underline;
 }
+footer {
+    background-color: #ffffff;
+    padding: 40px 10px 20px;
+    
+}
+
+.footer-block {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.foooter {
+    text-align: left;
+}
+
+.footer-block h5 {
+    color: #484242;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-block a {
+    display: block;
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.footer-block a:hover {
+    color: #8e4f8b;
+}
+
+.footer-block p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    max-width: 250px;
+}
+
+.subscribe-btn {
+    background-color: #987398;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 14px;
+}
+
+.subscribe-btn:hover {
+    background-color: #C8A2C8;
+}
+
