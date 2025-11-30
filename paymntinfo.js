@@ -1,4 +1,4 @@
-\// Console log as required innit
+// Console log as required innit
 console.log("Payment page loading pleasee wait Ready for checkout");
 
 const paymentBtns = document.querySelectorAll('.payment-btn');
@@ -40,4 +40,5 @@ document.getElementById('placeOrderBtn').addEventListener('click', () => {
     console.log("Order placed - Redirecting to Home page"); // Console log 5
     window.location.href = 'orderconfirmed.html'; // back to homieee
 });
+
 
