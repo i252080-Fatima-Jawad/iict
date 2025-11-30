@@ -3,26 +3,7 @@ body {
     background-color: #3a3a3a;
 }
 
-.headermenu ul {
-    display: flex;
-    list-style: none;
-    gap: 240px;
-    
-}
 
-
-.headermenu ul li a {
-    text-decoration: none;
-    color: #484242;
-    font-size: 18px;
-    font-weight: 500;
-  
-    display: inline-block;  
-}
-
-.headermenu ul li a:hover {
-    color: #8e4f8b;
-}
 .bg-peach {
     background-color: #e8c5b5;
 }
@@ -77,5 +58,3 @@ body {
     color: #dc3545;
 
 }
-
-
